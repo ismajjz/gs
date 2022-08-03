@@ -1,0 +1,339 @@
+/************************ HEADER ***************************/
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/* ****************BARRA DE NAVEGACION.******************** */
+.cabecera {
+    background-color: rgb(40, 114, 226);
+}
+.cabecera button {
+    background-color: #00000000;
+        position: relative;
+        left: 60%;
+        bottom: 70px;
+        margin: 1%;
+        border: none;
+    }
+
+
+/* ****************BARRA DE BUSQUEDA. ******************** */
+    .barrasearch {
+        position: absolute;
+        left: 650px;
+        top: 90px;
+    }
+    .barrasearch input {
+        border-color: #ffffff;
+        background-color: #353535;
+        font-size: 20px;
+        width: 330px;
+        height: 40px;
+        border-radius: 35px;
+    }
+    .barrasearch button {
+
+        background-color: #00000054;
+        position: relative;
+        right: 50px;
+        width: 40px;
+        height: 35px;
+        bottom: 0px;
+        border-radius: 35px;
+        border-bottom: 01px;
+ }
+
+
+
+/* **************LOGO PAGINA**************** */
+.cabecera__logo {
+    background-color: rgb(40, 114, 226);
+}
+
+
+
+/* ****************BOTONES MENU DE NAVEGACION****************** */
+.cabecera__nav {
+    background-color: #ffffff;
+}
+
+.cabecera__nav ul {
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    list-style-type: none;
+    padding: 15px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 25px;
+    bottom: 35px;
+}
+
+.cabecera__nav ul li {
+    display: inline;
+    margin: 20px;
+    padding: 6px;
+    background-color: rgb(40, 114, 226);
+    border-radius: 08px;
+    border-bottom: 03px solid; color: rgb(40, 114, 226) ;
+}
+
+.cabecera__nav ul li a {
+    background-color: rgb(40, 114, 226);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.cabecera__nav ul li a:hover {
+    color: rgb(0, 0, 0);
+}
+/**************** HEADER *************************/
+div#marcas {
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    background-color: #252525;
+    width: 100%;
+    height: 110px;
+    bottom: 60px;
+}
+
+div#marcas:hover {
+    color: rgb(72, 95, 197);
+}
+
+div#marcas .marcas__banner {
+    position: absolute;
+    top: 115px;
+    width: 100%;
+    right: 0px;
+}
+
+section ul.tipo__marcas {
+    background-color: black;
+    list-style: none;
+    width: 500px;
+    height: 2000px;
+    position: relative;
+    bottom: 240px;
+
+}
+
+section ul.tipo__marcas li {
+    color: rgb(255, 255, 255);
+    text-align: end;
+    font-weight: bolder;
+    font-size: 60px;
+    margin: 255px;
+    padding: 50px;
+    position: relative;
+    right: 150px;
+}
+
+ /* *************GALERIAS ADIDAS.*****************  */
+ div.galeriaADI {
+    background-color: rgba(53, 53, 53, 0.37);
+    display: inline-block;
+    margin: 20px;
+    padding: 50px;
+    border: 1px solid rgb(0, 0, 0);
+    width: 180px;
+    position: relative;
+    bottom: 2270px;
+    left:  550px;
+ }
+ 
+ div.galeriaADI:hover {
+    background-color: rgb(0, 102, 255);
+   border: 1px solid rgb(0, 0, 0);
+ }
+ 
+ div.galeriaADI img {
+    width: 100%;
+    height: auto;
+ }
+ 
+ 
+ div.galeriaADI__info {
+    padding: 15px;
+    text-align: left;
+    left: 10px;
+ }
+ 
+ div.galeriaADI__precio {
+    position: relative;
+    font-weight: bolder;
+    text-align: left;
+    top: 15px;
+ }
+
+/* *************GALERIAS NIKE.*****************  */
+div.galeriaNIKE {
+    background-color: rgba(53, 53, 53, 0.37);
+    display: inline-block;
+    margin: 20px;
+    padding: 50px;
+    border: 1px solid rgb(0, 0, 0);
+    width: 180px;
+    position: relative;
+    bottom: 2270px;
+    left:  550px;
+ }
+ 
+ div.galeriaNIKE:hover {
+    background-color: rgb(0, 102, 255);
+   border: 1px solid rgb(0, 0, 0);
+ }
+ 
+ div.galeriaNIKE img {
+    width: 100%;
+    height: auto;
+ }
+ 
+ 
+ div.galeriaNIKE__info {
+    padding: 15px;
+    text-align: left;
+    left: 10px;
+ }
+ 
+ div.galeriaNIKE__precio {
+    position: relative;
+    font-weight: bolder;
+    text-align: left;
+    top: 15px;
+ }
+
+/* *************GALERIAS PUMA.*****************  */
+div.galeriaPUMA {
+    background-color: rgba(53, 53, 53, 0.37);
+    display: inline-block;
+    margin: 20px;
+    padding: 50px;
+    border: 1px solid rgb(0, 0, 0);
+    width: 180px;
+    position: relative;
+    bottom: 2270px;
+    left: 550px;
+ }
+ 
+ div.galeriaPUMA:hover {
+    background-color: rgb(0, 102, 255);
+   border: 1px solid rgb(0, 0, 0);
+ }
+ 
+ div.galeriaPUMA img {
+    width: 100%;
+    height: auto;
+ }
+ 
+ 
+ div.galeriaPUMA__info {
+    padding: 15px;
+    text-align: left;
+    left: 10px;
+ }
+ 
+ div.galeriaPUMA__precio {
+    position: relative;
+    font-weight: bolder;
+    text-align: left;
+    top: 15px;
+ }
+
+/* *************GALERIAS UNDER.*****************  */
+div.galeriaUNDER {
+    background-color: rgba(53, 53, 53, 0.37);
+    display: inline-block;
+    margin: 20px;
+    padding: 50px;
+    border: 1px solid rgb(0, 0, 0);
+    width: 180px;
+    position: relative;
+    bottom: 2270px;
+    left: 550px;
+ }
+ 
+ div.galeriaUNDER:hover {
+    background-color: rgb(0, 102, 255);
+   border: 1px solid rgb(0, 0, 0);
+ }
+ 
+ div.galeriaUNDER img {
+    width: 100%;
+    height: auto;
+ }
+ 
+ 
+ div.galeriaUNDER__info {
+    padding: 15px;
+    text-align: left;
+    left: 10px;
+ }
+ 
+ div.galeriaUNDER__precio {
+    position: relative;
+    font-weight: bolder;
+    text-align: left;
+    top: 15px;
+ }
+
+ /* *************GALERIAS LACOSTE.*****************  */
+div.galeriaLACOSTE {
+    background-color: rgba(53, 53, 53, 0.37);
+    display: inline-block;
+    margin: 20px;
+    padding: 50px;
+    border: 1px solid rgb(0, 0, 0);
+    width: 180px;
+    position: relative;
+    bottom: 2270px;
+    left: 550px;
+ }
+ 
+ div.galeriaLACOSTE:hover {
+    background-color: rgb(0, 102, 255);
+   border: 1px solid rgb(0, 0, 0);
+ }
+ 
+ div.galeriaLACOSTE img {
+    width: 100%;
+    height: auto;
+ }
+ 
+ 
+ div.galeriaLACOSTE__info {
+    padding: 15px;
+    text-align: left;
+    left: 10px;
+ }
+ 
+ div.galeriaLACOSTE__precio {
+    position: relative;
+    font-weight: bolder;
+    text-align: left;
+    top: 15px;
+ }
+
+
+/* ******************PIE DE PAGINA.********************* */
+footer {
+    position: absolute;
+    width: 100%;
+    font-size: 20px;
+    background-color: #252525;
+}
+
+footer .pie td a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer .pie td a:hover {
+    color: rgb(0, 0, 0);
+}
+
+footer h3 {
+    background-color: #252525;
+}

@@ -1,0 +1,386 @@
+/************************ HEADER ***************************/
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+#hombre {
+    color: rgb(255, 255, 255);
+        background-color: #252525;
+        width: 100%;
+        height: 100px;
+        text-align: center;
+        font-size: 70px;
+        position: relative;
+        bottom: 75px;
+    
+    
+    }
+    
+    #hombre:hover {
+        color: rgb(3, 110, 211);
+    }
+    
+    #hombre .logomasculino1 {
+    position: absolute;
+    left: 450px;
+    top: 15px;
+    }
+    #hombre .logomasculino2 {
+        position: absolute;
+        right: 450px;
+        bottom: 15px;
+        }
+    
+    section.spam ul li {
+        font-size: 30px;
+        list-style-type: none;
+        position: relative;
+        top: 50px;
+        left: 5%;
+    }
+    
+
+
+/* ****************BARRA DE BUSQUEDA.******************** */
+.cabecera {
+    background-color: rgb(40, 114, 226);
+}
+.cabecera button {
+    background-color: #00000000;
+        position: relative;
+        left: 60%;
+        bottom: 70px;
+        margin: 1%;
+        border: none;
+    }
+
+/* *************GALERIAS BABUCHAS.*****************  */
+div.galeriaA {
+    background-color: rgba(69, 108, 214, 0.37);
+    display: inline-block;
+    margin: 20px;
+    padding: 50px;
+    border: 1px solid rgb(199, 199, 199);
+    width: 180px;
+    position: relative;
+    bottom: 300px;
+    left:  400px;
+
+ }
+ 
+ div.galeriaA:hover {
+    background-color: rgba(123, 169, 238, 0.568);
+   border: 1px solid rgb(0, 0, 0);
+ }
+ 
+ div.galeriaA img {
+    width: 100%;
+    height: auto;
+ }
+ 
+ 
+ div.galeriaA__info {
+    padding: 15px;
+    text-align: left;
+    left: 10px;
+ }
+ 
+ div.galeriaA__precio {
+    position: relative;
+    font-weight: bolder;
+    text-align: left;
+    top: 15px;
+ }
+
+
+ /* *************GALERIAS BUZOS.*****************  */
+div.galeriaB {
+    background-color: rgba(123, 192, 238, 0.37);
+    display: inline-block;
+    margin: 20px;
+    padding: 50px;
+    border: 1px solid rgb(199, 199, 199);
+    width: 180px;
+    position: relative;
+    bottom: 510px;
+    left:  250px;
+ }
+ 
+ div.galeriaB:hover {
+    background-color: rgba(123, 177, 238, 0.568);
+   border: 1px solid rgb(0, 0, 0);
+ }
+ 
+ div.galeriaB img {
+    width: 100%;
+    height: auto;
+ }
+ 
+ 
+ div.galeriaB__info {
+    padding: 15px;
+    text-align: left;
+    left: 10px;
+ }
+ 
+ div.galeriaB__precio {
+    position: relative;
+    font-weight: bolder;
+    text-align: left;
+    top: 15px;
+ }
+ section.spam ul.spam__buzos li {
+    position: relative;
+    top: -150px;
+    left: 90%;
+}
+
+
+ /* *************GALERIAS CHOMBAS.*****************  */
+ div.galeriaC {
+    background-color: rgba(123, 159, 238, 0.37);
+    display: inline-block;
+    margin: 20px;
+    padding: 50px;
+    border: 1px solid rgb(199, 199, 199);
+    width: 180px;
+    position: relative;
+    bottom: 710px;
+    left:  420px;
+ }
+ 
+ div.galeriaC:hover {
+    background-color: rgba(123, 173, 238, 0.568);
+   border: 1px solid rgb(0, 0, 0);
+ }
+ 
+ div.galeriaC img {
+    width: 100%;
+    height: auto;
+ }
+ 
+ 
+ div.galeriaC__info {
+    padding: 15px;
+    text-align: left;
+    left: 10px;
+ }
+ 
+ div.galeriaC__precio {
+    position: relative;
+    font-weight: bolder;
+    text-align: left;
+    top: 15px;
+ }
+ section.spam ul.spam__chombas li {
+    font-size: 30px;
+    list-style-type: none;
+    position: relative;
+    top: -350px;
+    left: 5%;
+}
+
+
+ /* *************GALERIAS CAMPERAS.*****************  */
+ div.galeriaD {
+    background-color: rgba(123, 177, 238, 0.37);
+    display: inline-block;
+    margin: 20px;
+    padding: 50px;
+    border: 1px solid rgb(199, 199, 199);
+    width: 180px;
+    position: relative;
+    bottom: 910px;
+    left:  250px;
+ }
+ 
+ div.galeriaD:hover {
+    background-color: rgba(123, 169, 238, 0.568);
+   border: 1px solid rgb(0, 0, 0);
+ }
+ 
+ div.galeriaD img {
+    width: 100%;
+    height: auto;
+ }
+ 
+ 
+ div.galeriaD__info {
+    padding: 15px;
+    text-align: left;
+    left: 10px;
+ }
+ 
+ div.galeriaD__precio {
+    position: relative;
+    font-weight: bolder;
+    text-align: left;
+    top: 15px;
+ }
+ section.spam ul.spam__camperas li {
+    position: relative;
+    top: -550px;
+    left: 90%;
+}
+
+ /* *************TITULO OUTLET MASCULINO*****************  */
+ h1.outlet {
+    position: relative;
+    font-size: 80px;
+    bottom: 850px;
+    text-align: center;
+    background-color: #252525;
+    width: 100%;
+    height: 110px;
+ }
+
+ /* *************OUTLET MASCULINO*****************  */
+ section.outlet__nav {
+    background-color: #252525;
+    position: relative;
+    left: 150px;
+    bottom: 800px;
+    width: 1800px;
+    height: 550px;
+ }
+
+ section.outlet__nav .outlet__img {
+    position: relative;
+    top: 25px;
+    left: 120px;
+ }
+
+
+
+
+
+/* ****************BARRA DE BUSQUEDA. ******************** */
+    .barrasearch {
+        position: absolute;
+        left: 650px;
+        top: 90px;
+    }
+    .barrasearch input {
+        border-color: #ffffff;
+        background-color: #353535;
+        font-size: 20px;
+        width: 330px;
+        height: 40px;
+        border-radius: 35px;
+    }
+    .barrasearch button {
+
+        background-color: #00000054;
+        position: relative;
+        right: 50px;
+        width: 40px;
+        height: 35px;
+        bottom: 0px;
+        border-radius: 35px;
+        border-bottom: 01px;
+ }
+
+
+
+/* **************LOGO PAGINA**************** */
+.cabecera__logo {
+    background-color: rgb(40, 114, 226);
+}
+
+
+
+/* ****************BOTONES MENU DE NAVEGACION****************** */
+.cabecera__nav {
+    background-color: #ffffff;
+}
+
+.cabecera__nav ul {
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    list-style-type: none;
+    padding: 15px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 25px;
+    bottom: 35px;
+}
+
+.cabecera__nav ul li {
+    display: inline;
+    margin: 20px;
+    padding: 6px;
+    background-color: rgb(40, 114, 226);
+    border-radius: 08px;
+    border-bottom: 03px solid; color: rgb(40, 114, 226) ;
+}
+
+.cabecera__nav ul li a {
+    background-color: rgb(40, 114, 226);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.cabecera__nav ul li a:hover {
+    color: rgb(0, 0, 0);
+}
+
+ /* *************TITULO OUTLET MASCULINO*****************  */
+ h1.outlet {
+    position: relative;
+    font-size: 80px;
+    bottom: 850px;
+    text-align: center;
+    background-color: #252525;
+    width: 100%;
+    height: 110px;
+ }
+
+ /* *************OUTLET MASCULINO*****************  */
+ section.outlet__nav {
+    background-color: #252525;
+    position: relative;
+    left: 150px;
+    bottom: 800px;
+    width: 1800px;
+    height: 550px;
+ }
+
+ section.outlet__nav .outlet__img {
+    position: relative;
+    top: -19%;
+    left: 120px;
+ }
+
+ section.outlet__nav p.titulo {
+    position: relative;
+    font-size: 50px;
+    text-align: center;
+    bottom: 90px;
+    color: white;
+    background-color: rgb(44, 44, 44);
+    width: 100%;
+    height: 80px;
+ }
+
+
+/* ******************PIE DE PAGINA.********************* */
+footer {
+    position: absolute;
+    width: 100%;
+    font-size: 20px;
+    background-color: #252525;
+}
+
+footer .pie td a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer .pie td a:hover {
+    color: rgb(0, 0, 0);
+}
+
+footer h3 {
+    background-color: #252525;
+}
